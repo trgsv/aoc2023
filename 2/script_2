@@ -1,0 +1,6 @@
+%s/1blue,//g
+%s/1red,//g
+%s/1green,//g
+%s/,1blue//g
+%s/,1red//g
+%s/,1green//g

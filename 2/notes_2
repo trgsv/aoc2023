@@ -1,2 +1,4 @@
 1. %norm 2dW
-2. 
+2. Replace ; with , and remove all whitespace
+3. Remove all fields with 1 
+4. 

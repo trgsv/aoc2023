@@ -1,0 +1,18 @@
+1. replace: 
+blue: *1
+red: *1000
+green: *1000000
+
+2. replace ', ' with '+'
+
+3. cf; into "-register
+4. Paste " into expression register, output val%1000<15 * val%1000000<13000 * val%1000000000<14000000
+    - macro that does this evaluation and adds X after that
+    - repeat 10x
+    - new macro that goes to last X and du evaluation with rest of line
+    - run both macros on each line with :%norm
+
+5. Multiply all outputs in one line, replace X with *
+6. Multiply line output with game number
+
+7. Sum all values of the document
